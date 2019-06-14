@@ -1,0 +1,8 @@
+n1 =input().split()
+n2 =input().split()
+t1 = int(n1[0])*60+int(n1[1])
+t2 = int(n2[0])*60+int(n2[1])
+n3 = abs(t1-t2)
+hrs = int(n3/60)
+mins = int((n3-(hrs*60)))
+print(hrs,mins)
