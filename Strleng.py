@@ -1,2 +1,2 @@
 n =input().split()
-print(len(n))
+print(len(n)-1)
