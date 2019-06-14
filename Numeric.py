@@ -1,6 +1,6 @@
 n =input()
 try:
-    a=int(n)
+    a=float(n)
     print("Yes")
 except ValueError:
     print("No")
