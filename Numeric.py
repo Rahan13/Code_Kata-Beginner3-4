@@ -1,6 +1,2 @@
-n =input()
-try:
-    a=float(n)
-    print("Yes")
-except ValueError:
-    print("No")
+n =input().split()
+print(n[1],n[0])
