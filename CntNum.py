@@ -1,6 +1,5 @@
 num = int(input())
-count = 0
-while(num>0):
-    count+=1
-    num=int(num/10)
-print(count)
+s=0
+for i in range(1,num+1):
+    s+=i
+print(s)
