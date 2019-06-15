@@ -10,6 +10,6 @@ for i in range(0,len(n)):
         anum+=1
         continue
 if(anum>0 and cnum>0):
-    print("yes")
+    print("Yes")
 else:
-    print("no")
+    print("No")
