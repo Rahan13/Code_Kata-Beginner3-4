@@ -1,5 +1,6 @@
 a=int(input())
-if(a%2==0):
+b=a%2
+if(b==0):
     print(a)
 else:
     print(a-1)
