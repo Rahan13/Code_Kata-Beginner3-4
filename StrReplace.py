@@ -2,10 +2,9 @@ s=str(input())
 if(len(s)%2==0):
     mid1=int(len(s)/2)
     mid2=mid1-1
-    s=s.replace(s[mid1],"*")
-    s=s.replace(s[mid2],"*")
+    s=s[0:mid2]+"**"+s[mid2+2:len(s)]
     print(s)
 else:
     mid=int(len(s)/2)
-    s=s.replace(s[mid],"*",1)
+    s=s[0:mid]+"*"+s[mid+1:len(s)]
     print(s)
