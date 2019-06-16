@@ -1,2 +1,3 @@
 numb=float(input())
-print(int(numb)+1)
+numb = int(numb)+1 
+print(numb)
