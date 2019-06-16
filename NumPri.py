@@ -6,4 +6,4 @@ for j in range(1,a+1):
 if count==2:
     print("yes")
 else:
-    print("no")oin(n))
+    print("no")
