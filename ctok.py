@@ -1,2 +1,2 @@
-s=int(input())
-print(s+273)
+cDeg=int(input())
+print(cDeg+273)
