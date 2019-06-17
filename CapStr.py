@@ -1,2 +1,2 @@
-s=input()
-print(s.title())
+kdsfb=input()
+print(kdsfb.title())
