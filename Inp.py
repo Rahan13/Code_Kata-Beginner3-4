@@ -8,4 +8,4 @@ def getInput():
             break
 
 getInput()
-[print(i,end=" ") for i in s]
+[print(i) for i in s]
