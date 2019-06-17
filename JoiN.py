@@ -1,2 +1,2 @@
 nums=input().split()
-print("".join(nums)
+print("".join(nums))
