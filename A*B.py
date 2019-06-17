@@ -1,2 +1,7 @@
 s=input().split()
-print(int((int(s[0])*int(s[1]))/int(s[2])))
+k=int(s[1])
+while(k>1):
+  mini=min(s)
+  s.remove(mini)
+  k-=1
+print(min(s))
