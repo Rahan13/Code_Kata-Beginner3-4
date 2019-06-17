@@ -1,3 +1,9 @@
-s=input().split()
-Int=int(s[0])*int(s[1])*int(s[2])
-print(int(Int/100))
+c=input()
+a=int(c)
+while(True):
+  if a%2 == 0:
+    a=int(a/2)
+    continue
+  else:
+    print(a)
+    break
